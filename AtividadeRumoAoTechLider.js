@@ -16,4 +16,4 @@ while (tentar != senha) {
     tentativa++;
 }
 
-console.log("PARABENS SEU NUMERO ESTA CORRETO " +  senha + " a " + tentativa + " tentativas");
+console.log("PARABENS VOCE ACERTOU O NUMERO " +  senha + " a " + tentativa + " tentativas");
