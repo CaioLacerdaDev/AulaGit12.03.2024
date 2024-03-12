@@ -1,5 +1,5 @@
-let limite = 9;
-let tabuada = 9;
+let limite = 834;
+let tabuada = 20;
 
 
 if (limite <= 0) {
