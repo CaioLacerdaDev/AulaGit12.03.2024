@@ -1,4 +1,4 @@
-let limite = 29
+let limite = 202;
 let tentativa = 402;
 let senha = Math.floor(Math.random() * limite);
 let tente = Math.floor(Math.random() * limite);
