@@ -1,7 +1,7 @@
-
+let limite = 29
 let tentativa = 402;
-let senha = Math.floor(Math.random() * 5);
-let tente = Math.floor(Math.random() * 5);
+let senha = Math.floor(Math.random() * limite);
+let tente = Math.floor(Math.random() * limite);
 
 while (tente != senha) {
 
@@ -12,7 +12,7 @@ while (tente != senha) {
         console.log("o numero secreto é menor que" + tente);
     }
     
-    tente = Math.floor(Math.random() * 5);
+    tente = Math.floor(Math.random() * limite);
     tentativa++;
 }
 
