@@ -1,4 +1,4 @@
-let Celsius = 32.6777;
+let Celsius = 33;
 let resultado;
 
 resultado = Celsius * 9 / 5 + 32;
