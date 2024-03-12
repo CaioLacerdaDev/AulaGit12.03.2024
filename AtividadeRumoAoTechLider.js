@@ -9,7 +9,7 @@ while (tentar != senha) {
         console.log("o numero secreto é maior que " + tentar);
 
     } else {
-        console.log("o numero secreto é menor que" + tentar);
+        console.log("o numero secreto é menor que " + tentar);
     }
     
     tentar = Math.floor(Math.random() * limite);
