@@ -1,18 +1,18 @@
 let limite = 202;
 let tentativa = 2;
 let senha = Math.floor(Math.random() * limite);
-let tente = Math.floor(Math.random() * limite);
+let tentar = Math.floor(Math.random() * limite);
 
-while (tente != senha) {
+while (tentar != senha) {
 
-    if (tente < senha) {
-        console.log("o numero secreto é maior que " + tente);
+    if (tentar < senha) {
+        console.log("o numero secreto é maior que " + tentar);
 
     } else {
-        console.log("o numero secreto é menor que" + tente);
+        console.log("o numero secreto é menor que" + tentar);
     }
     
-    tente = Math.floor(Math.random() * limite);
+    tentar = Math.floor(Math.random() * limite);
     tentativa++;
 }
 
