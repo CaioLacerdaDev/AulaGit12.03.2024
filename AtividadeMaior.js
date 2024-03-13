@@ -1,6 +1,6 @@
 let a = 15
 let b = 12
-let c = 12
+let c = 19
 let maior = a;
 
 if (b > maior) {
