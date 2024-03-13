@@ -1,13 +1,13 @@
 let a = 15
-let b = 12
-let c = 19
+let td4 = 12
+let tdc = 19
 let maior = a;
 
-if (b > maior) {
-    maior = b;
+if (td4 > maior) {
+    maior = td4;
 }
 
-if (c > maior) {
+if (tdc > maior) {
     maior = c;
 }
 
