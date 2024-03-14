@@ -1,14 +1,14 @@
 let a = 15
 let b = 12
-let c = 19
+let d = 19
 let maior = a;
 
 if (b > maior) {
     maior = b;
 }
 
-if (c > maior) {
-    maior = c;
+if (d > maior) {
+    maior = d;
 }
 
 console.log(maior);
