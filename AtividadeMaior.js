@@ -1,7 +1,7 @@
-let a = 15
+let s = 15
 let b = 12
 let d = 19
-let maior = a;
+let maior = s;
 
 if (b > maior) {
     maior = b;
